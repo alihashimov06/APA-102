@@ -1,0 +1,14 @@
+C:\Users\RH\source\repos\06-C#IntroMethods\obj\Debug\net8.0\06-C#IntroMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RH\source\repos\06-C#IntroMethods\obj\Debug\net8.0\06-C#IntroMethods.AssemblyInfoInputs.cache
+C:\Users\RH\source\repos\06-C#IntroMethods\obj\Debug\net8.0\06-C#IntroMethods.AssemblyInfo.cs
+C:\Users\RH\source\repos\06-C#IntroMethods\obj\Debug\net8.0\06-C#IntroMethods.csproj.CoreCompileInputs.cache
+C:\Users\RH\source\repos\06-C#IntroMethods\bin\Debug\net8.0\06-C#IntroMethods.exe
+C:\Users\RH\source\repos\06-C#IntroMethods\bin\Debug\net8.0\06-C#IntroMethods.deps.json
+C:\Users\RH\source\repos\06-C#IntroMethods\bin\Debug\net8.0\06-C#IntroMethods.runtimeconfig.json
+C:\Users\RH\source\repos\06-C#IntroMethods\bin\Debug\net8.0\06-C#IntroMethods.dll
+C:\Users\RH\source\repos\06-C#IntroMethods\bin\Debug\net8.0\06-C#IntroMethods.pdb
+C:\Users\RH\source\repos\06-C#IntroMethods\obj\Debug\net8.0\06-C#IntroMethods.dll
+C:\Users\RH\source\repos\06-C#IntroMethods\obj\Debug\net8.0\refint\06-C#IntroMethods.dll
+C:\Users\RH\source\repos\06-C#IntroMethods\obj\Debug\net8.0\06-C#IntroMethods.pdb
+C:\Users\RH\source\repos\06-C#IntroMethods\obj\Debug\net8.0\06-C#IntroMethods.genruntimeconfig.cache
+C:\Users\RH\source\repos\06-C#IntroMethods\obj\Debug\net8.0\ref\06-C#IntroMethods.dll
