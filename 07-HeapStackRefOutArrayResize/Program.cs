@@ -15,16 +15,16 @@ namespace _07_HeapStackRefOutArrayResize
 
         }
 
-        public static void CostumArrSize(ref int[] x, ref int[] y)
+        public static void CostumArrSize(ref int[] arr, ref int[] nums)
         {
-            int[] newArr = new int[x.Length + y.Length];
-            for (int i = 0; i < x.Length; i++)
+            int[] newArr = new int[arr.Length + nums.Length];
+            for (int i = 0; i < arr.Length; i++)
             {
-                newArr[i] = x[i];
+                newArr[i] = arr[i];
             }
-            for (int i = 0; i < y.Length; i++)
+            for (int i = 0; i < nums.Length; i++)
             {
-                newArr[x.Length + i] = y[i];
+                newArr[arr.Length + i] = nums[i];
             }
             for (int i = 0; i < newArr.Length; i++)
             {
