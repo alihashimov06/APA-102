@@ -8,10 +8,10 @@ namespace _07_HeapStackRefOutArrayResize
         static void Main(string[] args)
         {
             int[] nums = { 1, 2, 3 };
-            int[] nums2 = { 4, 5 };
+            int[] nums2 = {3, 4, 5 };
 
             CostumArrSize(ref nums, ref nums2);
-
+            
 
         }
 
