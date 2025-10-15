@@ -1,0 +1,15 @@
+C:\Users\RH\Desktop\APA-102\07-HeapStackRefOutArrayResize\bin\Debug\net8.0\07-HeapStackRefOutArrayResize.exe
+C:\Users\RH\Desktop\APA-102\07-HeapStackRefOutArrayResize\bin\Debug\net8.0\07-HeapStackRefOutArrayResize.deps.json
+C:\Users\RH\Desktop\APA-102\07-HeapStackRefOutArrayResize\bin\Debug\net8.0\07-HeapStackRefOutArrayResize.runtimeconfig.json
+C:\Users\RH\Desktop\APA-102\07-HeapStackRefOutArrayResize\bin\Debug\net8.0\07-HeapStackRefOutArrayResize.dll
+C:\Users\RH\Desktop\APA-102\07-HeapStackRefOutArrayResize\bin\Debug\net8.0\07-HeapStackRefOutArrayResize.pdb
+C:\Users\RH\Desktop\APA-102\07-HeapStackRefOutArrayResize\obj\Debug\net8.0\07-HeapStackRefOutArrayResize.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RH\Desktop\APA-102\07-HeapStackRefOutArrayResize\obj\Debug\net8.0\07-HeapStackRefOutArrayResize.AssemblyInfoInputs.cache
+C:\Users\RH\Desktop\APA-102\07-HeapStackRefOutArrayResize\obj\Debug\net8.0\07-HeapStackRefOutArrayResize.AssemblyInfo.cs
+C:\Users\RH\Desktop\APA-102\07-HeapStackRefOutArrayResize\obj\Debug\net8.0\07-HeapStackRefOutArrayResize.csproj.CoreCompileInputs.cache
+C:\Users\RH\Desktop\APA-102\07-HeapStackRefOutArrayResize\obj\Debug\net8.0\07-HeapStackRefOutArrayResize.sourcelink.json
+C:\Users\RH\Desktop\APA-102\07-HeapStackRefOutArrayResize\obj\Debug\net8.0\07-HeapStackRefOutArrayResize.dll
+C:\Users\RH\Desktop\APA-102\07-HeapStackRefOutArrayResize\obj\Debug\net8.0\refint\07-HeapStackRefOutArrayResize.dll
+C:\Users\RH\Desktop\APA-102\07-HeapStackRefOutArrayResize\obj\Debug\net8.0\07-HeapStackRefOutArrayResize.pdb
+C:\Users\RH\Desktop\APA-102\07-HeapStackRefOutArrayResize\obj\Debug\net8.0\07-HeapStackRefOutArrayResize.genruntimeconfig.cache
+C:\Users\RH\Desktop\APA-102\07-HeapStackRefOutArrayResize\obj\Debug\net8.0\ref\07-HeapStackRefOutArrayResize.dll
