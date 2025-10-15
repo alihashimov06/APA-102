@@ -10,12 +10,12 @@ namespace _07_HeapStackRefOutArrayResize
             int[] nums = { 1, 2, 3 };
             int[] nums2 = {3, 4, 5 };
 
-            CostumArrSize(ref nums, ref nums2);
+            CostumArrSize(ref nums, nums2);
             
 
         }
 
-        public static void CostumArrSize(ref int[] arr, ref int[] nums)
+        public static void CostumArrSize(ref int[] arr, int[] nums)
         {
             int[] newArr = new int[arr.Length + nums.Length];
             for (int i = 0; i < arr.Length; i++)
