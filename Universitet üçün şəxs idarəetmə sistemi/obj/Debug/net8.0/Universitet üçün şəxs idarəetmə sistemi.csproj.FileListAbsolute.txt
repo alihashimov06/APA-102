@@ -1,0 +1,15 @@
+C:\Users\RH\Desktop\APA-102\Universitet üçün şəxs idarəetmə sistemi\obj\Debug\net8.0\Universitet üçün şəxs idarəetmə sistemi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RH\Desktop\APA-102\Universitet üçün şəxs idarəetmə sistemi\obj\Debug\net8.0\Universitet üçün şəxs idarəetmə sistemi.AssemblyInfoInputs.cache
+C:\Users\RH\Desktop\APA-102\Universitet üçün şəxs idarəetmə sistemi\obj\Debug\net8.0\Universitet üçün şəxs idarəetmə sistemi.AssemblyInfo.cs
+C:\Users\RH\Desktop\APA-102\Universitet üçün şəxs idarəetmə sistemi\obj\Debug\net8.0\Universitet üçün şəxs idarəetmə sistemi.csproj.CoreCompileInputs.cache
+C:\Users\RH\Desktop\APA-102\Universitet üçün şəxs idarəetmə sistemi\obj\Debug\net8.0\Universitet üçün şəxs idarəetmə sistemi.sourcelink.json
+C:\Users\RH\Desktop\APA-102\Universitet üçün şəxs idarəetmə sistemi\bin\Debug\net8.0\Universitet üçün şəxs idarəetmə sistemi.exe
+C:\Users\RH\Desktop\APA-102\Universitet üçün şəxs idarəetmə sistemi\bin\Debug\net8.0\Universitet üçün şəxs idarəetmə sistemi.deps.json
+C:\Users\RH\Desktop\APA-102\Universitet üçün şəxs idarəetmə sistemi\bin\Debug\net8.0\Universitet üçün şəxs idarəetmə sistemi.runtimeconfig.json
+C:\Users\RH\Desktop\APA-102\Universitet üçün şəxs idarəetmə sistemi\bin\Debug\net8.0\Universitet üçün şəxs idarəetmə sistemi.dll
+C:\Users\RH\Desktop\APA-102\Universitet üçün şəxs idarəetmə sistemi\bin\Debug\net8.0\Universitet üçün şəxs idarəetmə sistemi.pdb
+C:\Users\RH\Desktop\APA-102\Universitet üçün şəxs idarəetmə sistemi\obj\Debug\net8.0\Universitet üçün şəxs idarəetmə sistemi.dll
+C:\Users\RH\Desktop\APA-102\Universitet üçün şəxs idarəetmə sistemi\obj\Debug\net8.0\refint\Universitet üçün şəxs idarəetmə sistemi.dll
+C:\Users\RH\Desktop\APA-102\Universitet üçün şəxs idarəetmə sistemi\obj\Debug\net8.0\Universitet üçün şəxs idarəetmə sistemi.pdb
+C:\Users\RH\Desktop\APA-102\Universitet üçün şəxs idarəetmə sistemi\obj\Debug\net8.0\Universitet üçün şəxs idarəetmə sistemi.genruntimeconfig.cache
+C:\Users\RH\Desktop\APA-102\Universitet üçün şəxs idarəetmə sistemi\obj\Debug\net8.0\ref\Universitet üçün şəxs idarəetmə sistemi.dll

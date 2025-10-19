@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Universitet üçün şəxs idarəetmə sistemi/1.0.0": {
+        "runtime": {
+          "Universitet üçün şəxs idarəetmə sistemi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Universitet üçün şəxs idarəetmə sistemi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
