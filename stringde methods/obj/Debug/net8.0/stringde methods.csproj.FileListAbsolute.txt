@@ -1,0 +1,15 @@
+C:\Users\RH\Desktop\APA-102\stringde methods\bin\Debug\net8.0\stringde methods.exe
+C:\Users\RH\Desktop\APA-102\stringde methods\bin\Debug\net8.0\stringde methods.deps.json
+C:\Users\RH\Desktop\APA-102\stringde methods\bin\Debug\net8.0\stringde methods.runtimeconfig.json
+C:\Users\RH\Desktop\APA-102\stringde methods\bin\Debug\net8.0\stringde methods.dll
+C:\Users\RH\Desktop\APA-102\stringde methods\bin\Debug\net8.0\stringde methods.pdb
+C:\Users\RH\Desktop\APA-102\stringde methods\obj\Debug\net8.0\stringde methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RH\Desktop\APA-102\stringde methods\obj\Debug\net8.0\stringde methods.AssemblyInfoInputs.cache
+C:\Users\RH\Desktop\APA-102\stringde methods\obj\Debug\net8.0\stringde methods.AssemblyInfo.cs
+C:\Users\RH\Desktop\APA-102\stringde methods\obj\Debug\net8.0\stringde methods.csproj.CoreCompileInputs.cache
+C:\Users\RH\Desktop\APA-102\stringde methods\obj\Debug\net8.0\stringde methods.sourcelink.json
+C:\Users\RH\Desktop\APA-102\stringde methods\obj\Debug\net8.0\stringde methods.dll
+C:\Users\RH\Desktop\APA-102\stringde methods\obj\Debug\net8.0\refint\stringde methods.dll
+C:\Users\RH\Desktop\APA-102\stringde methods\obj\Debug\net8.0\stringde methods.pdb
+C:\Users\RH\Desktop\APA-102\stringde methods\obj\Debug\net8.0\stringde methods.genruntimeconfig.cache
+C:\Users\RH\Desktop\APA-102\stringde methods\obj\Debug\net8.0\ref\stringde methods.dll
