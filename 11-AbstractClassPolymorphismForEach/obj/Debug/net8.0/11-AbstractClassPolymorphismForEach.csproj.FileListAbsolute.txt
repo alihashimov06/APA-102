@@ -1,0 +1,15 @@
+C:\Users\RH\Desktop\APA-102\11-AbstractClassPolymorphismForEach\obj\Debug\net8.0\11-AbstractClassPolymorphismForEach.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RH\Desktop\APA-102\11-AbstractClassPolymorphismForEach\obj\Debug\net8.0\11-AbstractClassPolymorphismForEach.AssemblyInfoInputs.cache
+C:\Users\RH\Desktop\APA-102\11-AbstractClassPolymorphismForEach\obj\Debug\net8.0\11-AbstractClassPolymorphismForEach.AssemblyInfo.cs
+C:\Users\RH\Desktop\APA-102\11-AbstractClassPolymorphismForEach\obj\Debug\net8.0\11-AbstractClassPolymorphismForEach.csproj.CoreCompileInputs.cache
+C:\Users\RH\Desktop\APA-102\11-AbstractClassPolymorphismForEach\obj\Debug\net8.0\11-AbstractClassPolymorphismForEach.sourcelink.json
+C:\Users\RH\Desktop\APA-102\11-AbstractClassPolymorphismForEach\bin\Debug\net8.0\11-AbstractClassPolymorphismForEach.exe
+C:\Users\RH\Desktop\APA-102\11-AbstractClassPolymorphismForEach\bin\Debug\net8.0\11-AbstractClassPolymorphismForEach.deps.json
+C:\Users\RH\Desktop\APA-102\11-AbstractClassPolymorphismForEach\bin\Debug\net8.0\11-AbstractClassPolymorphismForEach.runtimeconfig.json
+C:\Users\RH\Desktop\APA-102\11-AbstractClassPolymorphismForEach\bin\Debug\net8.0\11-AbstractClassPolymorphismForEach.dll
+C:\Users\RH\Desktop\APA-102\11-AbstractClassPolymorphismForEach\bin\Debug\net8.0\11-AbstractClassPolymorphismForEach.pdb
+C:\Users\RH\Desktop\APA-102\11-AbstractClassPolymorphismForEach\obj\Debug\net8.0\11-AbstractClassPolymorphismForEach.dll
+C:\Users\RH\Desktop\APA-102\11-AbstractClassPolymorphismForEach\obj\Debug\net8.0\refint\11-AbstractClassPolymorphismForEach.dll
+C:\Users\RH\Desktop\APA-102\11-AbstractClassPolymorphismForEach\obj\Debug\net8.0\11-AbstractClassPolymorphismForEach.pdb
+C:\Users\RH\Desktop\APA-102\11-AbstractClassPolymorphismForEach\obj\Debug\net8.0\11-AbstractClassPolymorphismForEach.genruntimeconfig.cache
+C:\Users\RH\Desktop\APA-102\11-AbstractClassPolymorphismForEach\obj\Debug\net8.0\ref\11-AbstractClassPolymorphismForEach.dll
