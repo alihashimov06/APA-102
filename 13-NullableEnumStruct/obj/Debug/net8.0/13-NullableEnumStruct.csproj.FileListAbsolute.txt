@@ -1,0 +1,15 @@
+C:\Users\RH\Desktop\APA-102\13-NullableEnumStruct\bin\Debug\net8.0\13-NullableEnumStruct.exe
+C:\Users\RH\Desktop\APA-102\13-NullableEnumStruct\bin\Debug\net8.0\13-NullableEnumStruct.deps.json
+C:\Users\RH\Desktop\APA-102\13-NullableEnumStruct\bin\Debug\net8.0\13-NullableEnumStruct.runtimeconfig.json
+C:\Users\RH\Desktop\APA-102\13-NullableEnumStruct\bin\Debug\net8.0\13-NullableEnumStruct.dll
+C:\Users\RH\Desktop\APA-102\13-NullableEnumStruct\bin\Debug\net8.0\13-NullableEnumStruct.pdb
+C:\Users\RH\Desktop\APA-102\13-NullableEnumStruct\obj\Debug\net8.0\13-NullableEnumStruct.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RH\Desktop\APA-102\13-NullableEnumStruct\obj\Debug\net8.0\13-NullableEnumStruct.AssemblyInfoInputs.cache
+C:\Users\RH\Desktop\APA-102\13-NullableEnumStruct\obj\Debug\net8.0\13-NullableEnumStruct.AssemblyInfo.cs
+C:\Users\RH\Desktop\APA-102\13-NullableEnumStruct\obj\Debug\net8.0\13-NullableEnumStruct.csproj.CoreCompileInputs.cache
+C:\Users\RH\Desktop\APA-102\13-NullableEnumStruct\obj\Debug\net8.0\13-NullableEnumStruct.sourcelink.json
+C:\Users\RH\Desktop\APA-102\13-NullableEnumStruct\obj\Debug\net8.0\13-NullableEnumStruct.dll
+C:\Users\RH\Desktop\APA-102\13-NullableEnumStruct\obj\Debug\net8.0\refint\13-NullableEnumStruct.dll
+C:\Users\RH\Desktop\APA-102\13-NullableEnumStruct\obj\Debug\net8.0\13-NullableEnumStruct.pdb
+C:\Users\RH\Desktop\APA-102\13-NullableEnumStruct\obj\Debug\net8.0\13-NullableEnumStruct.genruntimeconfig.cache
+C:\Users\RH\Desktop\APA-102\13-NullableEnumStruct\obj\Debug\net8.0\ref\13-NullableEnumStruct.dll
