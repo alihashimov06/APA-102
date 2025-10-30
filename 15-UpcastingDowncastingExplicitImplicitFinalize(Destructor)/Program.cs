@@ -1,0 +1,3 @@
+﻿// upcosting ustun olan bir tibe movcud tipimizi yukseltmekdi yani diyekki animl deye bir esas klass ve burda buzde penguin deye  diye kicik bir class var
+// bu zaman klasi animal tipine yukselteyimiz implicit adlanir veya upcosting adlanir tersi ise expicit ve ya down costing adlanir
+// destrucsin constroctin bitisinde ise dusen hec bir ise yaramayan bir metoddur yalniz constraktir isddemeye son veren anda isleyir
