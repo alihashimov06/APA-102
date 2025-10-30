@@ -13,3 +13,18 @@ C:\Users\RH\Desktop\APA-102\14-StatiClassExtensionMethodsExceptions\obj\Debug\ne
 C:\Users\RH\Desktop\APA-102\14-StatiClassExtensionMethodsExceptions\obj\Debug\net8.0\14-StatiClassExtensionMethodsExceptions.pdb
 C:\Users\RH\Desktop\APA-102\14-StatiClassExtensionMethodsExceptions\obj\Debug\net8.0\14-StatiClassExtensionMethodsExceptions.genruntimeconfig.cache
 C:\Users\RH\Desktop\APA-102\14-StatiClassExtensionMethodsExceptions\obj\Debug\net8.0\ref\14-StatiClassExtensionMethodsExceptions.dll
+C:\Users\I Novbe\Desktop\APA-102\14-StatiClassExtensionMethodsExceptions\bin\Debug\net8.0\14-StatiClassExtensionMethodsExceptions.exe
+C:\Users\I Novbe\Desktop\APA-102\14-StatiClassExtensionMethodsExceptions\bin\Debug\net8.0\14-StatiClassExtensionMethodsExceptions.deps.json
+C:\Users\I Novbe\Desktop\APA-102\14-StatiClassExtensionMethodsExceptions\bin\Debug\net8.0\14-StatiClassExtensionMethodsExceptions.runtimeconfig.json
+C:\Users\I Novbe\Desktop\APA-102\14-StatiClassExtensionMethodsExceptions\bin\Debug\net8.0\14-StatiClassExtensionMethodsExceptions.dll
+C:\Users\I Novbe\Desktop\APA-102\14-StatiClassExtensionMethodsExceptions\bin\Debug\net8.0\14-StatiClassExtensionMethodsExceptions.pdb
+C:\Users\I Novbe\Desktop\APA-102\14-StatiClassExtensionMethodsExceptions\obj\Debug\net8.0\14-StatiClassExtensionMethodsExceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\I Novbe\Desktop\APA-102\14-StatiClassExtensionMethodsExceptions\obj\Debug\net8.0\14-StatiClassExtensionMethodsExceptions.AssemblyInfoInputs.cache
+C:\Users\I Novbe\Desktop\APA-102\14-StatiClassExtensionMethodsExceptions\obj\Debug\net8.0\14-StatiClassExtensionMethodsExceptions.AssemblyInfo.cs
+C:\Users\I Novbe\Desktop\APA-102\14-StatiClassExtensionMethodsExceptions\obj\Debug\net8.0\14-StatiClassExtensionMethodsExceptions.csproj.CoreCompileInputs.cache
+C:\Users\I Novbe\Desktop\APA-102\14-StatiClassExtensionMethodsExceptions\obj\Debug\net8.0\14-StatiClassExtensionMethodsExceptions.sourcelink.json
+C:\Users\I Novbe\Desktop\APA-102\14-StatiClassExtensionMethodsExceptions\obj\Debug\net8.0\14-StatiClassExtensionMethodsExceptions.dll
+C:\Users\I Novbe\Desktop\APA-102\14-StatiClassExtensionMethodsExceptions\obj\Debug\net8.0\refint\14-StatiClassExtensionMethodsExceptions.dll
+C:\Users\I Novbe\Desktop\APA-102\14-StatiClassExtensionMethodsExceptions\obj\Debug\net8.0\14-StatiClassExtensionMethodsExceptions.pdb
+C:\Users\I Novbe\Desktop\APA-102\14-StatiClassExtensionMethodsExceptions\obj\Debug\net8.0\14-StatiClassExtensionMethodsExceptions.genruntimeconfig.cache
+C:\Users\I Novbe\Desktop\APA-102\14-StatiClassExtensionMethodsExceptions\obj\Debug\net8.0\ref\14-StatiClassExtensionMethodsExceptions.dll

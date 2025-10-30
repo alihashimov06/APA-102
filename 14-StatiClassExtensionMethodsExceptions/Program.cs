@@ -16,7 +16,7 @@ while (true)
         if (system.Login(username, password))
             break;
     }
-    catch (InvalidUsernameException ex)
+    catch (InvalidUsernameExceeption ex)
     {
         Console.WriteLine("ERROR: " + ex.Message);
     }

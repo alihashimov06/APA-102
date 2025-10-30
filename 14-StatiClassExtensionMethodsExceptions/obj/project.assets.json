@@ -8,19 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\RH\\.nuget\\packages\\": {}
+    "C:\\Users\\I Novbe\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RH\\Desktop\\APA-102\\14-StatiClassExtensionMethodsExceptions\\14-StatiClassExtensionMethodsExceptions.csproj",
+      "projectUniqueName": "C:\\Users\\I Novbe\\Desktop\\APA-102\\14-StatiClassExtensionMethodsExceptions\\14-StatiClassExtensionMethodsExceptions.csproj",
       "projectName": "14-StatiClassExtensionMethodsExceptions",
-      "projectPath": "C:\\Users\\RH\\Desktop\\APA-102\\14-StatiClassExtensionMethodsExceptions\\14-StatiClassExtensionMethodsExceptions.csproj",
-      "packagesPath": "C:\\Users\\RH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RH\\Desktop\\APA-102\\14-StatiClassExtensionMethodsExceptions\\obj\\",
+      "projectPath": "C:\\Users\\I Novbe\\Desktop\\APA-102\\14-StatiClassExtensionMethodsExceptions\\14-StatiClassExtensionMethodsExceptions.csproj",
+      "packagesPath": "C:\\Users\\I Novbe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\I Novbe\\Desktop\\APA-102\\14-StatiClassExtensionMethodsExceptions\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\RH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\I Novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("13-NullableEnumStruct")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf98a5a50983615722e3c35685b03c154fae3325")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c706d58e23c4673f3a0fe85cf89f50013e625d11")]
 [assembly: System.Reflection.AssemblyProductAttribute("13-NullableEnumStruct")]
 [assembly: System.Reflection.AssemblyTitleAttribute("13-NullableEnumStruct")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
