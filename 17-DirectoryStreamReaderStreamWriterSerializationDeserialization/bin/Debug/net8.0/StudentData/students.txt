@@ -1,0 +1,5 @@
+1,Ali,Hashimov,19,92
+2,Leyla,Həsənova,20,85.5
+3,Vüqar,Əliyev,21,78.5
+4,Nigar,Əhmədova,20,88
+5,Rəşad,Quliyev,22,95.5

@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 1,
+    "Name": "Ali",
+    "Surname": "Hashimov",
+    "Age": 19,
+    "Grade": 92
+  },
+  {
+    "Id": 2,
+    "Name": "Leyla",
+    "Surname": "H\u0259s\u0259nova",
+    "Age": 20,
+    "Grade": 85.5
+  },
+  {
+    "Id": 3,
+    "Name": "V\u00FCqar",
+    "Surname": "\u018Fliyev",
+    "Age": 21,
+    "Grade": 78.5
+  },
+  {
+    "Id": 4,
+    "Name": "Nigar",
+    "Surname": "\u018Fhm\u0259dova",
+    "Age": 20,
+    "Grade": 88
+  },
+  {
+    "Id": 5,
+    "Name": "R\u0259\u015Fad",
+    "Surname": "Quliyev",
+    "Age": 22,
+    "Grade": 95.5
+  }
+]

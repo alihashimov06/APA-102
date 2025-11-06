@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\RH\\Desktop\\APA-102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\",
+  "WorkspaceRootPath": "C:\\Users\\I Novbe\\Desktop\\APA-102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF0BCD03-CCBB-4442-AF5A-450613D60BCB}|17-DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|c:\\users\\rh\\desktop\\apa-102\\17-directorystreamreaderstreamwriterserializationdeserialization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF0BCD03-CCBB-4442-AF5A-450613D60BCB}|17-DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF0BCD03-CCBB-4442-AF5A-450613D60BCB}|17-DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|c:\\users\\rh\\desktop\\apa-102\\17-directorystreamreaderstreamwriterserializationdeserialization\\models\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DF0BCD03-CCBB-4442-AF5A-450613D60BCB}|17-DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|c:\\users\\i novbe\\desktop\\apa-102\\17-directorystreamreaderstreamwriterserializationdeserialization\\models\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF0BCD03-CCBB-4442-AF5A-450613D60BCB}|17-DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|solutionrelative:models\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF0BCD03-CCBB-4442-AF5A-450613D60BCB}|17-DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|c:\\users\\rh\\desktop\\apa-102\\17-directorystreamreaderstreamwriterserializationdeserialization\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DF0BCD03-CCBB-4442-AF5A-450613D60BCB}|17-DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|c:\\users\\i novbe\\desktop\\apa-102\\17-directorystreamreaderstreamwriterserializationdeserialization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF0BCD03-CCBB-4442-AF5A-450613D60BCB}|17-DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0BCD03-CCBB-4442-AF5A-450613D60BCB}|17-DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|c:\\users\\i novbe\\desktop\\apa-102\\17-directorystreamreaderstreamwriterserializationdeserialization\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF0BCD03-CCBB-4442-AF5A-450613D60BCB}|17-DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,30 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\I Novbe\\Desktop\\APA-102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\Program.cs",
+              "ToolTip": "C:\\Users\\I Novbe\\Desktop\\APA-102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAowJgAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAJkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T21:39:49.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FileManager.cs",
-              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\Models\\FileManager.cs",
+              "DocumentMoniker": "C:\\Users\\I Novbe\\Desktop\\APA-102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\Models\\FileManager.cs",
               "RelativeDocumentMoniker": "Models\\FileManager.cs",
-              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\Models\\FileManager.cs",
+              "ToolTip": "C:\\Users\\I Novbe\\Desktop\\APA-102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\Models\\FileManager.cs",
               "RelativeToolTip": "Models\\FileManager.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAYwFEAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T21:53:24.315Z",
               "EditorCaption": ""
@@ -54,14 +58,13 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\Models\\Student.cs",
+              "DocumentMoniker": "C:\\Users\\I Novbe\\Desktop\\APA-102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Models\\Student.cs",
-              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\I Novbe\\Desktop\\APA-102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\Models\\Student.cs",
               "RelativeToolTip": "Models\\Student.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T21:41:19.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T21:41:19.871Z"
             }
           ]
         }
