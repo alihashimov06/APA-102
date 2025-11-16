@@ -17,7 +17,7 @@ namespace _17_DirectoryStreamReaderStreamWriterSerializationDeserialization.Mode
 
         public FileManager()
         {
-            FolderPath = @"C:\Users\\RH\Desktop\StudentData";
+            FolderPath = "StudentData";
             TextFilePath =Path.Combine(FolderPath, "students.txt");
             JsonFilePath = Path.Combine(FolderPath, "students.json");
         }
