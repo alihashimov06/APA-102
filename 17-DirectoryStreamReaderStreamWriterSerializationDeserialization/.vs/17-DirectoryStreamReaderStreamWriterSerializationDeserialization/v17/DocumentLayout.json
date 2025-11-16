@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAowJgAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAowJgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T21:39:49.701Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "Models\\FileManager.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAYwFEAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T21:53:24.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T21:53:24.315Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "Models\\Student.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T21:41:19.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T21:41:19.871Z"
             }
           ]
         }
