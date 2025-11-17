@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 40px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.time {
+    font-size: 26px;
+    font-weight: 600;
+    color: #2574d0;   
+    width: 250px;  
+}
+
+.normal-text {
+    width: 500px;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.fancy-text {
+    width: 500px;
+    line-height: 1.6;
+    font-size: 17px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+}
