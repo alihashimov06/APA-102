@@ -1,0 +1,86 @@
+#header_area {
+    padding: 20px 0;
+    background: transparent; 
+    width: 100%;
+}
+#header_area .navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.logo {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    
+}
+.sort-box {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    
+}
+.price{
+    cursor: pointer;
+}
+
+.sort-box .arrow {
+    font-size: 14px;
+}
+
+/* main start */
+
+.shop-container {
+  position: relative;
+  
+}
+
+.card {
+  width: 251px;
+  position: absolute; 
+  background:transparent;
+  border-radius: 12px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card .title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.stars {
+  color: gold;
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+.price {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #4ad96b;
+}
+
+
+.card1 { top: 0; left: 50px; }
+.card2 { top: 0; left: 325px; }
+.card3 { top: 0; left: 650px; }
+.card4 { top: 420px; left: 50px; }
+.card5 { top: 420px; left: 325px; }
+.card6 { top: 420px; left: 650px; }
+.card7 { top: 840px; left: 50px; }
+.card8 { top: 840px; left: 325px; }
+.card9 { top: 840px; left: 650px; }
+.card10 { top: 1260px; left: 50px; }
+.card11 { top: 1260px; left: 325px; }
+.card12 { top: 1260px   ; left: 650px; }
+
