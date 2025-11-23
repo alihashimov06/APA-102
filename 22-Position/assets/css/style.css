@@ -84,3 +84,28 @@
 .card11 { top: 1260px; left: 325px; }
 .card12 { top: 1260px   ; left: 650px; }
 
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 1750px; 
+  padding-bottom: 60px;
+}
+
+.page-btn {
+  padding: 10px 16px;
+  background: #eee;
+  color: black;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.page-btn:hover {
+  background: #ccc;
+}
+
+.page-btn.active {
+  background: #4ad96b;
+  color: white;
+}
