@@ -1,0 +1,18 @@
+body {
+  scroll-behavior: smooth;
+}
+
+header h1 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+header p {
+  font-size: 1.25rem;
+}
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+footer {
+  font-size: 0.9rem;
+}
