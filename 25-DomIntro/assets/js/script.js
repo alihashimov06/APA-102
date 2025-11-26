@@ -1,4 +1,7 @@
-const app = document.getElementById("app");
+const app = document.createElement("div");
+app.id = "app";
+document.body.appendChild(app);
+
 
 const card = document.createElement("div");
 card.style.width = "350px";
