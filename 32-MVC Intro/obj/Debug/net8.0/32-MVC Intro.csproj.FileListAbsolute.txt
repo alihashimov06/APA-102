@@ -1,0 +1,31 @@
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\bin\Debug\net8.0\appsettings.json
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\bin\Debug\net8.0\32-MVC Intro.staticwebassets.endpoints.json
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\bin\Debug\net8.0\32-MVC Intro.exe
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\bin\Debug\net8.0\32-MVC Intro.deps.json
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\bin\Debug\net8.0\32-MVC Intro.runtimeconfig.json
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\bin\Debug\net8.0\32-MVC Intro.dll
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\bin\Debug\net8.0\32-MVC Intro.pdb
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\32-MVC Intro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\32-MVC Intro.AssemblyInfoInputs.cache
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\32-MVC Intro.AssemblyInfo.cs
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\32-MVC Intro.csproj.CoreCompileInputs.cache
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\32-MVC Intro.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\32-MVC Intro.RazorAssemblyInfo.cache
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\32-MVC Intro.RazorAssemblyInfo.cs
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\32-MVC Intro.sourcelink.json
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\scopedcss\bundle\32-MVC Intro.styles.css
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\32-MVC Intro.dll
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\refint\32-MVC Intro.dll
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\32-MVC Intro.pdb
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\32-MVC Intro.genruntimeconfig.cache
+C:\Users\RH\Desktop\APA-102\32-MVC Intro\obj\Debug\net8.0\ref\32-MVC Intro.dll
