@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\RH\\Desktop\\APA-102\\34-Front_To_BackSqlConnection\\",
+  "WorkspaceRootPath": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\34-front_to_backsqlconnection\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\34-front_to_backsqlconnection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\views\\shop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:views\\shop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\viewmodels\\detailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:viewmodels\\detailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,28 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\34-Front_To_BackSqlConnection\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\34-Front_To_BackSqlConnection\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBcAAAAAAAAAAAAAAA==",
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "Controllers\\ShopController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T16:55:26.074Z",
+              "WhenOpened": "2025-12-15T18:57:04.397Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\34-Front_To_BackSqlConnection\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\34-Front_To_BackSqlConnection\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DetailVM.cs",
+              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\ViewModels\\DetailVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\DetailVM.cs",
+              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\ViewModels\\DetailVM.cs",
+              "RelativeToolTip": "ViewModels\\DetailVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T16:16:14.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T20:59:26.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Views\\Shop\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shop\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Views\\Shop\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Shop\\Detail.cshtml",
+              "ViewState": "AgIAAAUCAAAAAAAAAAAIwAsCAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T19:23:45.795Z"
             }
           ]
         }

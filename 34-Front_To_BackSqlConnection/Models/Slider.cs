@@ -1,8 +1,6 @@
-﻿using _34_Front_To_BackSqlConnection.Models.Base;
-
-namespace _34_Front_To_BackSqlConnection.Models
+﻿namespace _34_Front_To_BackSqlConnection.Models
 {
-    public class Slider : BaseEntity
+    public class Slider : Base.BaseEntity
     {
         public string SubTitle { get; set; }
         public string Title { get; set; }
