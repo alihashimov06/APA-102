@@ -1,16 +1,17 @@
 ﻿@model Category
+
 <div class="row">
     <div class="col-md-6 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Create Category</h4>
+                <h4 class="card-title">Update Category</h4>
                 <form class="forms-sample" method="post">
                     <div class="form-group">
                         <label for="name">Category Name</label>
-                        <input asp-for="Name" class="form-control"  placeholder="Add Category">
+                        <input asp-for="Name" class="form-control" placeholder="Update Category">
                         <span asp-validation-for="Name" class="text-danger"></span>
                     </div>
-                    <button type="submit" class="btn btn-primary me-2">Update</button>
+                    <button type="submit" class="btn btn-primary me-2">Submit</button>
                     <button class="btn btn-light" asp-action="index">Cancel</button>
                 </form>
             </div>

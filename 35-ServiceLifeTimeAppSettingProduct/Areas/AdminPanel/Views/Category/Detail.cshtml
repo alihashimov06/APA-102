@@ -1,21 +1,18 @@
-﻿@model List<Category>
+﻿@model Category
 
-@{
-    int count = 0;
-}
+
 
 <div class="row">
     <div class="col-lg-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Category Table</h4>
+                <h4 class="card-title">Dtail Table</h4>
                 <div class="table-responsive">
-                    <a asp-action="Create" class="btn btn-success">Create</a>
                     <table class="table table-striped">
                         <thead>
                             <tr>
                                 <th>
-                                    №
+                                    Id
                                 </th>
                                 <th>
                                     Name
@@ -24,31 +21,25 @@
                                     Product Count
                                 </th>
                                 <th>
-                                    Settinga
+                                    Creating
                                 </th>
-                               
+
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach (Category category in Model)
-                            {
-                                count++;
                                 <tr>
                                     <td>
-                                        <p>@count</p>
+                                        <p>@Model.Id</p>
                                     </td>
                                     <td>
-                                        <p>@category.Name</p>
+                                        <p>@Model.Name</p>
                                     <td>
-                                        <p>@category.Products.Count</p>
+                                    <p>@Model.Products.Count</p>
                                     </td>
                                     <td>
-                                        <a class="btn btn-warning" asp-action="update" asp-route-id="@category.Id"><i class="mdi mdi-border-color"></i></a>
-                                        <a class="btn btn-danger" asp-action="delete" asp-route-id="@category.Id"><i class="mdi mdi-delete"></i></a>
-                                        <a class="btn btn-primary" asp-action="detail" asp-route-id="@category.Id"><i class="mdi mdi-information"></i></a>
+                                    <p>@Model.CreatedAt</p>
                                     </td>
                                 </tr>
-                            }
                         </tbody>
                     </table>
                 </div>
