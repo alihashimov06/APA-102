@@ -75,7 +75,7 @@ namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.Controllers
         {
             if (id is null || id < 1) return BadRequest();
 
-            Category? dbCategory = await _context.Categories.FirstOrDefaultAsync(c => c.Id == id);
+            Category dbCategory = await _context.Categories.FirstOrDefaultAsync(c => c.Id == id);
 
             if (dbCategory == null) return NotFound();
 
@@ -108,7 +108,7 @@ namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.Controllers
             {
                 return BadRequest();
             }
-            Category? category = await _context.Categories.FirstOrDefaultAsync(c => c.Id == id);
+            Category category = await _context.Categories.FirstOrDefaultAsync(c => c.Id == id);
 
             if (category == null) return NotFound();
 
