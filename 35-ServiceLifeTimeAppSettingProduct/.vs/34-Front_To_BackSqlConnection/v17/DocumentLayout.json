@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\areas\\adminpanel\\views\\slider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\views\\slider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\areas\\adminpanel\\views\\slider\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\views\\slider\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\areas\\adminpanel\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\utilities\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:utilities\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\utilities\\enums\\filesize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:utilities\\enums\\filesize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Views\\Slider\\Create.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Slider\\Create.cshtml",
-              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Views\\Slider\\Create.cshtml",
-              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Slider\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABVAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
+              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAADwvzUAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-21T19:18:52.952Z",
+              "WhenOpened": "2025-12-22T21:55:38.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml",
+              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T21:56:11.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SliderController.cs",
               "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Controllers\\SliderController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\SliderController.cs",
               "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Controllers\\SliderController.cs",
               "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\SliderController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwDEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAgwEoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-21T18:54:58.323Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
-              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
-              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-21T18:54:55.808Z",
+              "DocumentIndex": 4,
+              "Title": "FileSize.cs",
+              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Utilities\\Enums\\FileSize.cs",
+              "RelativeDocumentMoniker": "Utilities\\Enums\\FileSize.cs",
+              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Utilities\\Enums\\FileSize.cs",
+              "RelativeToolTip": "Utilities\\Enums\\FileSize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T20:44:58.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Slider.cs",
-              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Models\\Slider.cs",
-              "RelativeDocumentMoniker": "Models\\Slider.cs",
-              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Models\\Slider.cs",
-              "RelativeToolTip": "Models\\Slider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "FileValidator.cs",
+              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Utilities\\Extensions\\FileValidator.cs",
+              "RelativeDocumentMoniker": "Utilities\\Extensions\\FileValidator.cs",
+              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Utilities\\Extensions\\FileValidator.cs",
+              "RelativeToolTip": "Utilities\\Extensions\\FileValidator.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwDMAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T19:06:12.025Z",
+              "WhenOpened": "2025-12-22T20:32:37.996Z",
               "EditorCaption": ""
             }
           ]

@@ -1,5 +1,7 @@
 ﻿using _34_Front_To_BackSqlConnection.DAL;
 using _34_Front_To_BackSqlConnection.Models;
+using _34_Front_To_BackSqlConnection.Utilities.Enums;
+using _34_Front_To_BackSqlConnection.Utilities.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
@@ -31,34 +33,54 @@ namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.Controllers
         [HttpPost]
         public async Task<IActionResult> Create( Slider slider )
         {
-            if (!slider.Photo.ContentType.Contains("image/"))
+            if (slider.Photo.IsImage("image/"))
             {
                 ModelState.AddModelError(nameof(slider.Photo), "File type is not true");
                 return View();
             }
-            if (slider.Photo.Length > 2 * 1024 * 1024)
+            if (!slider.Photo.isSizeAllowed(FileSize.MB, slider.Photo.Length))
             {
                 ModelState.AddModelError(nameof(slider.Photo), "File size is too large");
                 return View();
             }
 
-            string fileName = string.Concat(Guid.NewGuid().ToString(),slider.Photo.FileName);
-
-            string path = Path.Combine(_evn.WebRootPath, "assets", "images", "website-images", fileName);
-
-            FileStream fileStream = new FileStream(path, FileMode.Create);
-
-            await slider.Photo.CopyToAsync(fileStream);
-
-            fileStream.Close();
-
-            slider.ImageURL = fileName;
+            slider.ImageURL =await slider.Photo.CreateFileAsync(_evn.WebRootPath, "assets", "images", "website-images");
 
             await _context.Sliders.AddAsync(slider);
 
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if(id is null || id < 1) return BadRequest();
+
+            Slider slider = await _context.Sliders.FirstOrDefaultAsync(s=>s.Id == id);
+
+            if(slider is null) return NotFound();
+
+            slider.ImageURL.DeleteFile(_evn.WebRootPath, "assets", "images", "website-images");
+
+            _context.Sliders.Remove(slider);
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+
+
+        }
+
+        public async Task<IActionResult> Detail(int? id)
+        {
+            if (id is null || id < 1) return BadRequest();
+
+            Slider slider = await _context.Sliders.FirstOrDefaultAsync(s => s.Id == id);
+
+            if (slider is null) return NotFound();
+
+            return View(slider);
         }
     }
 }
