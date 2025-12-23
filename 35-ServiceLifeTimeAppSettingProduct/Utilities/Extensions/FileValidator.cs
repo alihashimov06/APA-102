@@ -56,7 +56,8 @@ namespace _34_Front_To_BackSqlConnection.Utilities.Extensions
             {
                 path = Path.Combine(path, roots[i]);
             }
-            
+            path = Path.Combine(path, fileName);
+
             File.Delete(path);
             
         }

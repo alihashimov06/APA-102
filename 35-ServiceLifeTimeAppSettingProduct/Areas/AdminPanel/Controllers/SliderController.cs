@@ -1,4 +1,5 @@
-﻿using _34_Front_To_BackSqlConnection.DAL;
+﻿using _34_Front_To_BackSqlConnection.Areas.AdminPanel.ViewModels;
+using _34_Front_To_BackSqlConnection.DAL;
 using _34_Front_To_BackSqlConnection.Models;
 using _34_Front_To_BackSqlConnection.Utilities.Enums;
 using _34_Front_To_BackSqlConnection.Utilities.Extensions;
@@ -31,22 +32,91 @@ namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Create( Slider slider )
+        public async Task<IActionResult> Create( SliderCreatVM sliderCreatVM )
         {
-            if (slider.Photo.IsImage("image/"))
-            {
-                ModelState.AddModelError(nameof(slider.Photo), "File type is not true");
-                return View();
-            }
-            if (!slider.Photo.isSizeAllowed(FileSize.MB, slider.Photo.Length))
-            {
-                ModelState.AddModelError(nameof(slider.Photo), "File size is too large");
-                return View();
-            }
+            if(!ModelState.IsValid) return View();  
 
-            slider.ImageURL =await slider.Photo.CreateFileAsync(_evn.WebRootPath, "assets", "images", "website-images");
+            if (sliderCreatVM.Photo.IsImage("image/"))
+            {
+                ModelState.AddModelError(nameof(sliderCreatVM.Photo), "File type is not true");
+                return View();
+            }
+            if (!sliderCreatVM.Photo.isSizeAllowed(FileSize.MB, sliderCreatVM.Photo.Length))
+            {
+                ModelState.AddModelError(nameof(sliderCreatVM.Photo), "File size is too large");
+                return View();
+            } 
+
+            Slider slider = new Slider()
+            {
+                SubTitle = sliderCreatVM.SubTitle,
+                Title = sliderCreatVM.Title,
+                Description = sliderCreatVM.Description,
+                Order = sliderCreatVM.Order,
+                ImageURL = await sliderCreatVM.Photo.CreateFileAsync(_evn.WebRootPath, "assets", "images", "website-images")
+            };
 
             await _context.Sliders.AddAsync(slider);
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Update(int? id)
+        {
+            if(id is null || id < 1) return BadRequest();
+
+            Slider slider = await _context.Sliders.FirstOrDefaultAsync(s=>s.Id == id);
+
+            if(slider is null) return NotFound();
+
+            SliderUpdateVM sliderUpdateVM = new SliderUpdateVM()
+            {
+                SubTitle = slider.SubTitle,
+                Title = slider.Title,
+                Description = slider.Description,
+                ImageURL = slider.ImageURL,
+                Order = slider.Order
+            };
+
+            return View(sliderUpdateVM);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Update(int? id, SliderUpdateVM sliderUpdateVM)
+        {
+            if (id is null || id < 1) return BadRequest();
+
+            if (!ModelState.IsValid) return View(sliderUpdateVM);
+
+            Slider dbSlider = await _context.Sliders.FirstOrDefaultAsync(s => s.Id == id);
+
+            if (dbSlider is null) return NotFound();
+            
+            if (sliderUpdateVM.Photo is not null)
+            {
+                if (sliderUpdateVM.Photo.IsImage("image/"))
+                {
+                    ModelState.AddModelError(nameof(sliderUpdateVM.Photo), "File type is not true");
+                    return View(sliderUpdateVM);
+                }
+                if (!sliderUpdateVM.Photo.isSizeAllowed(FileSize.MB, sliderUpdateVM.Photo.Length))
+                {
+                    ModelState.AddModelError(nameof(sliderUpdateVM.Photo), "File size is too large");
+                    return View(sliderUpdateVM);
+                }
+                dbSlider.ImageURL.DeleteFile(_evn.WebRootPath, "assets", "images", "website-images");
+
+                dbSlider.ImageURL = await sliderUpdateVM.Photo.CreateFileAsync(_evn.WebRootPath, "assets", "images", "website-images");
+            }
+            dbSlider.SubTitle = sliderUpdateVM.SubTitle;
+
+            dbSlider.Title = sliderUpdateVM.Title;
+
+            dbSlider.Description = sliderUpdateVM.Description;
+
+            dbSlider.Order = sliderUpdateVM.Order;
 
             await _context.SaveChangesAsync();
 
