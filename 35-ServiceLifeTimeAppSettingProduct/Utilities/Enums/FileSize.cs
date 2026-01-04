@@ -2,8 +2,8 @@
 {
     public enum FileSize
     {
-        KB,
-        MB,
-        GB
+        Kb,
+        Mb,
+        Gb
     }
 }

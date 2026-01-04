@@ -1,4 +1,5 @@
-﻿using _34_Front_To_BackSqlConnection.DAL;
+﻿using _34_Front_To_BackSqlConnection.Areas.AdminPanel.ViewModels;
+using _34_Front_To_BackSqlConnection.DAL;
 using _34_Front_To_BackSqlConnection.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -17,9 +18,15 @@ namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            List<Category> categories = await _context.Categories
+            var categories = await _context.Categories
                 .Include(c => c.Products)
                 .Where(c => c.IsDeleted == false)
+                .Select(c => new GetCategoryVM
+                {
+                    Id = c.Id,
+                    Name = c.Name,
+                    ProductCount = c.Products.Count
+                })
                 .ToListAsync();
 
             return View(categories);
@@ -32,7 +39,7 @@ namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Create(Category category)
+        public async Task<IActionResult> Create(CategoryCreateVM categoryCreateVM)
         {
 
             if (!ModelState.IsValid)
@@ -40,13 +47,17 @@ namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.Controllers
                 return View();
             }
 
-            bool existCategory = await _context.Categories.AnyAsync(c => c.Name.Trim() == category.Name.Trim());
+            bool existCategory = await _context.Categories.AnyAsync(c => c.Name.Trim() == categoryCreateVM.Name.Trim());
 
             if (existCategory)
             {
                 ModelState.AddModelError("Name", "This category already exist");
                 return View();
             }
+            Category category = new()
+            {
+                Name = categoryCreateVM.Name
+            };
 
             await _context.AddAsync(category);
             await _context.SaveChangesAsync();
@@ -66,12 +77,17 @@ namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.Controllers
 
             if (category == null) return NotFound();
 
+            CategoryUpdateVM categoryUpdateVM = new()
+            {
+                Name = category.Name
+            };
 
-            return View(category);
+
+            return View(categoryUpdateVM);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Update(int? id, Category category)
+        public async Task<IActionResult> Update(int? id, CategoryUpdateVM categoryUpdateVM)
         {
             if (id is null || id < 1) return BadRequest();
 
@@ -86,7 +102,7 @@ namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.Controllers
             }
 
 
-            bool isExist = await _context.Categories.AnyAsync(c => c.Name.Trim() == category.Name.Trim());
+            bool isExist = await _context.Categories.AnyAsync(c => c.Name.Trim() == categoryUpdateVM.Name.Trim());
 
 
             if (isExist)
@@ -95,7 +111,7 @@ namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.Controllers
                 return View();
             }
 
-            dbCategory.Name = category.Name;
+            dbCategory.Name = categoryUpdateVM.Name;
 
             await _context.SaveChangesAsync();
 

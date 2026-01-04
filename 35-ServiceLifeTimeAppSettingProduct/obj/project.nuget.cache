@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6hPDqeRJT+M=",
+  "dgSpecHash": "6C0tH00WUFc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\34-Front_To_BackSqlConnection.csproj",
+  "projectFilePath": "C:\\Users\\RH\\Desktop\\35-ServiceLifeTimeAppSettingProduct\\34-Front_To_BackSqlConnection.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RH\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\RH\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

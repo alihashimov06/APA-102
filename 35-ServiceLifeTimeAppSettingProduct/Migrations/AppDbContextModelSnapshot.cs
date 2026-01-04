@@ -37,6 +37,7 @@ namespace _34_Front_To_BackSqlConnection.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
@@ -173,6 +174,52 @@ namespace _34_Front_To_BackSqlConnection.Migrations
                     b.ToTable("ProductImages");
                 });
 
+            modelBuilder.Entity("_34_Front_To_BackSqlConnection.Models.ProductSize", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SizeId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("SizeId");
+
+                    b.ToTable("ProductSizes");
+                });
+
+            modelBuilder.Entity("_34_Front_To_BackSqlConnection.Models.ProductTag", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TagId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("TagId");
+
+                    b.ToTable("ProductTags");
+                });
+
             modelBuilder.Entity("_34_Front_To_BackSqlConnection.Models.Shipping", b =>
                 {
                     b.Property<int>("Id")
@@ -202,6 +249,29 @@ namespace _34_Front_To_BackSqlConnection.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Shippings");
+                });
+
+            modelBuilder.Entity("_34_Front_To_BackSqlConnection.Models.Size", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Sizes");
                 });
 
             modelBuilder.Entity("_34_Front_To_BackSqlConnection.Models.Slider", b =>
@@ -242,6 +312,29 @@ namespace _34_Front_To_BackSqlConnection.Migrations
                     b.ToTable("Sliders");
                 });
 
+            modelBuilder.Entity("_34_Front_To_BackSqlConnection.Models.Tag", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tags");
+                });
+
             modelBuilder.Entity("_34_Front_To_BackSqlConnection.Models.Product", b =>
                 {
                     b.HasOne("_34_Front_To_BackSqlConnection.Models.Category", "Category")
@@ -264,6 +357,44 @@ namespace _34_Front_To_BackSqlConnection.Migrations
                     b.Navigation("Product");
                 });
 
+            modelBuilder.Entity("_34_Front_To_BackSqlConnection.Models.ProductSize", b =>
+                {
+                    b.HasOne("_34_Front_To_BackSqlConnection.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("_34_Front_To_BackSqlConnection.Models.Size", "Size")
+                        .WithMany()
+                        .HasForeignKey("SizeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Size");
+                });
+
+            modelBuilder.Entity("_34_Front_To_BackSqlConnection.Models.ProductTag", b =>
+                {
+                    b.HasOne("_34_Front_To_BackSqlConnection.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("_34_Front_To_BackSqlConnection.Models.Tag", "Tag")
+                        .WithMany("ProductTags")
+                        .HasForeignKey("TagId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Tag");
+                });
+
             modelBuilder.Entity("_34_Front_To_BackSqlConnection.Models.Category", b =>
                 {
                     b.Navigation("Products");
@@ -272,6 +403,11 @@ namespace _34_Front_To_BackSqlConnection.Migrations
             modelBuilder.Entity("_34_Front_To_BackSqlConnection.Models.Product", b =>
                 {
                     b.Navigation("ProductImages");
+                });
+
+            modelBuilder.Entity("_34_Front_To_BackSqlConnection.Models.Tag", b =>
+                {
+                    b.Navigation("ProductTags");
                 });
 #pragma warning restore 612, 618
         }

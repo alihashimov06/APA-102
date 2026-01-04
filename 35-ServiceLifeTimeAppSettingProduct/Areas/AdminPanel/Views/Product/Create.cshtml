@@ -1,0 +1,79 @@
+﻿@model ProductCreateVM
+
+<div class="row">
+    <div class="col-md-6 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Create Product</h4>
+                <form class="forms-sample" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="Name">Name</label>
+                        <input asp-for="Name" class="form-control">
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="MainPhoto">Main Image</label>
+                        <input asp-for="MainPhoto" class="form-control" accept="image/*">
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="HoverPhoto">Secondary Image</label>
+                        <input asp-for="HoverPhoto" class="form-control" accept="image/*">
+                        <span asp-validation-for="HoverPhoto" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="AdditionalPhotos">Additional Photos</label>
+                        <input asp-for="AdditionalPhotos" class="form-control" accept="image/*" multiple>
+                        <span asp-validation-for="AdditionalPhotos" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Prize">Prize</label>
+                        <input asp-for="Prize" class="form-control" placeholder="Prize">
+                        <span asp-validation-for="Prize" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="CategoryId">Category</label>
+                        <select asp-for="CategoryId" class="form-control">
+                            <option selected disabled>Choose Category</option>
+                            @foreach (Category category in Model.Categories)
+                            {
+                                <option value="@category.Id">@category.Name</option>
+                            }
+                        </select>
+                        <span asp-validation-for="CategoryId" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="TagIds">Tag</label>
+                        <select asp-for="TagIds" class="form-control" asp-items="new SelectList(Model.Tags, nameof(Tag.Id), nameof(Tag.Name))" multiple="multiple">
+                            @* <option selected disabled>Choose Category</option> *@
+                        </select>
+                        <span asp-validation-for="TagIds" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>Sizes</label>
+                        <select asp-for="SizeIds" class="form-control" asp-items="new SelectList(Model.Sizes, nameof(Size.Id), nameof(Size.Name))" multiple="multiple">
+                        </select>
+                        <span asp-validation-for="SizeIds" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="SKU">SKU</label>
+                        <input asp-for="SKU" class="form-control" placeholder="SKU">
+                        <span asp-validation-for="SKU" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Description">Description</label>
+                        <textarea asp-for="Description" class="form-control" placeholder="Description"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary me-2">Submit</button>
+                    <button class="btn btn-light" asp-action="index">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+

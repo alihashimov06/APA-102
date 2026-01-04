@@ -23,7 +23,16 @@ namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.Controllers
         public async Task<IActionResult> Index()
         {
 
-            List<Slider> sliders =await _context.Sliders.ToListAsync();
+            var sliders =await _context.Sliders
+                .Select(s => new GetSliderVM
+                {
+                    Id = s.Id,
+                    SubTitle = s.SubTitle,
+                    Title = s.Title,
+                    ImageURL = s.ImageURL,
+                    Order = s.Order
+                })
+                .ToListAsync();
 
             return View(sliders);
         }
@@ -41,7 +50,7 @@ namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.Controllers
                 ModelState.AddModelError(nameof(sliderCreatVM.Photo), "File type is not true");
                 return View();
             }
-            if (!sliderCreatVM.Photo.isSizeAllowed(FileSize.MB, sliderCreatVM.Photo.Length))
+            if (!sliderCreatVM.Photo.isSizeAllowed(FileSize.Mb, sliderCreatVM.Photo.Length))
             {
                 ModelState.AddModelError(nameof(sliderCreatVM.Photo), "File size is too large");
                 return View();
@@ -101,7 +110,7 @@ namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.Controllers
                     ModelState.AddModelError(nameof(sliderUpdateVM.Photo), "File type is not true");
                     return View(sliderUpdateVM);
                 }
-                if (!sliderUpdateVM.Photo.isSizeAllowed(FileSize.MB, sliderUpdateVM.Photo.Length))
+                if (!sliderUpdateVM.Photo.isSizeAllowed(FileSize.Mb, sliderUpdateVM.Photo.Length))
                 {
                     ModelState.AddModelError(nameof(sliderUpdateVM.Photo), "File size is too large");
                     return View(sliderUpdateVM);
@@ -150,7 +159,16 @@ namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.Controllers
 
             if (slider is null) return NotFound();
 
-            return View(slider);
+            SliderDetailVM detailSliderVM = new()
+            {
+                Title = slider.Title,
+                SubTitle = slider.SubTitle,
+                Description = slider.Description,
+                ImageURL = slider.ImageURL,
+                Order = slider.Order
+            };
+
+            return View(detailSliderVM);
         }
     }
 }

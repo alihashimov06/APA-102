@@ -17,13 +17,13 @@ namespace _34_Front_To_BackSqlConnection.Utilities.Extensions
         {
             switch (sizeUnite)
             {
-                case FileSize.KB:
+                case FileSize.Kb:
                     return file.Length <= size * 1024;
 
-                case FileSize.MB:
+                case FileSize.Mb:
                     return file.Length <= size * 1024 * 1024;
 
-                case FileSize.GB:
+                case FileSize.Gb:
                     return file.Length <= size * 1024 * 1024;
 
             }
@@ -49,6 +49,7 @@ namespace _34_Front_To_BackSqlConnection.Utilities.Extensions
             return fileName;
 
         }
+
         public static void DeleteFile(this string fileName, params string[] roots)
         {
             string path = string.Empty;

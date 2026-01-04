@@ -1,6 +1,6 @@
 ﻿using _34_Front_To_BackSqlConnection.Models;
 
-namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.ViewModels.Products
+namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.ViewModels
 {
     public class GetProductVM
     {
