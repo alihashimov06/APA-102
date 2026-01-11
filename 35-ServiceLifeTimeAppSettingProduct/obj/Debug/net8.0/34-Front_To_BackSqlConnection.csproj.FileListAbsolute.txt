@@ -795,3 +795,8 @@ C:\Users\RH\Desktop\35-ServiceLifeTimeAppSettingProduct\obj\Debug\net8.0\refint\
 C:\Users\RH\Desktop\35-ServiceLifeTimeAppSettingProduct\obj\Debug\net8.0\34-Front_To_BackSqlConnection.pdb
 C:\Users\RH\Desktop\35-ServiceLifeTimeAppSettingProduct\obj\Debug\net8.0\34-Front_To_BackSqlConnection.genruntimeconfig.cache
 C:\Users\RH\Desktop\35-ServiceLifeTimeAppSettingProduct\obj\Debug\net8.0\ref\34-Front_To_BackSqlConnection.dll
+C:\Users\RH\Desktop\APA-102\35-ServiceLifeTimeAppSettingProduct\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\RH\Desktop\APA-102\35-ServiceLifeTimeAppSettingProduct\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\RH\Desktop\APA-102\35-ServiceLifeTimeAppSettingProduct\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\RH\Desktop\APA-102\35-ServiceLifeTimeAppSettingProduct\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\RH\Desktop\APA-102\35-ServiceLifeTimeAppSettingProduct\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
