@@ -1,6 +1,7 @@
 ﻿using _34_Front_To_BackSqlConnection.Areas.AdminPanel.ViewModels;
 using _34_Front_To_BackSqlConnection.DAL;
 using _34_Front_To_BackSqlConnection.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json.Bson;
@@ -8,6 +9,7 @@ using Newtonsoft.Json.Bson;
 namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.Controllers
 {
     [Area("AdminPanel")]
+    [Authorize(Roles = "Admin , Moderator")]
     public class CategoryController : Controller
     {
         private readonly AppDbContext _context;
@@ -117,7 +119,7 @@ namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.Controllers
 
             return RedirectToAction(nameof(Index));
         }
-
+        [Authorize(Roles = "Admin , Moderator")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || id < 1)

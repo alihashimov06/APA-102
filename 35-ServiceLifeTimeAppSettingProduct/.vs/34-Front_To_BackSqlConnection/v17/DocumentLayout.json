@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\areas\\adminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\areas\\adminpanel\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\viewmodels\\account\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:viewmodels\\account\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|c:\\users\\rh\\desktop\\apa-102\\35-servicelifetimeappsettingproduct\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E8C59D6-5B45-4DED-B5B6-E61222093695}|34-Front_To_BackSqlConnection.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowJgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T23:11:48.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterVM.cs",
-              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\ViewModels\\Account\\RegisterVM.cs",
-              "RelativeDocumentMoniker": "ViewModels\\Account\\RegisterVM.cs",
-              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\ViewModels\\Account\\RegisterVM.cs",
-              "RelativeToolTip": "ViewModels\\Account\\RegisterVM.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T22:50:20.662Z",
+              "WhenOpened": "2026-01-12T22:30:55.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADsAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-11T22:29:53.113Z",
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwIcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T22:30:17.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAswDAAAABGAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwNIBAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T22:28:31.218Z",
+              "WhenOpened": "2026-01-12T21:38:56.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Models\\AppUser.cs",
-              "RelativeDocumentMoniker": "Models\\AppUser.cs",
-              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Models\\AppUser.cs",
-              "RelativeToolTip": "Models\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAIwI4AAACtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-12T21:10:35.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACAAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-12T20:31:54.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\RH\\Desktop\\APA-102\\35-ServiceLifeTimeAppSettingProduct\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T22:10:02.966Z",
+              "WhenOpened": "2026-01-11T22:28:31.218Z",
               "EditorCaption": ""
             }
           ]
