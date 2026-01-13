@@ -1,9 +1,12 @@
 using _34_Front_To_BackSqlConnection.DAL;
 using _34_Front_To_BackSqlConnection.Models;
+using _34_Front_To_BackSqlConnection.Services.Implementation;
+using _34_Front_To_BackSqlConnection.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddScoped<ILayoutServices,LayoutServices>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(opt=>
     opt.UseSqlServer("Server=DESKTOP-M5B3NNT\\SQLEXPRESS;DATABASE=ProniaDB;Trusted_Connection=True;TrustServerCertificate=True")
@@ -15,7 +18,7 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
     opt.Password.RequireNonAlphanumeric = true;
     opt.Password.RequireUppercase = false;
     opt.User.RequireUniqueEmail = true;
-    
+    opt.SignIn.RequireConfirmedEmail = true;
     opt.Lockout.MaxFailedAccessAttempts = 5;
     opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(15);
 }

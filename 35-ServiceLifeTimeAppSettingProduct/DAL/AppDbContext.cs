@@ -20,5 +20,6 @@ namespace _34_Front_To_BackSqlConnection.DAL
         public DbSet<ProductTag> ProductTags { get; set; }
         public DbSet<Size> Sizes { get; set; }
         public DbSet<ProductSize> ProductSizes { get; set; }
+        public DbSet<Setting> Settings { get; set; }
     }
 }

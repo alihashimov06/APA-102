@@ -1,4 +1,11 @@
-﻿<!DOCTYPE html>
+﻿@inject ILayoutServices _layoutServices
+
+@{
+    Dictionary<string, string> settings = await _layoutServices.GetSettingAsync();
+}
+
+
+<!DOCTYPE html>
 <html lang="zxx">
 <head>
     <meta charset="UTF-8" />
@@ -97,11 +104,11 @@
                             <div class="header-middle-wrap position-relative">
                                 <div class="header-contact d-none d-lg-flex">
                                     <i class="pe-7s-call"></i>
-                                    <a href="tel://+00-123-456-789">+00 123 456 789</a>
+                                    <a href="tel:@settings["PhoneNumber"]">@settings["PhoneNumber"]</a>
                                 </div>
 
                                 <a href="index.html" class="header-logo">
-                                    <img src="~/assets/images/logo/dark.png" alt="Header Logo" />
+                                    <img src="~/assets/images/logo/@settings["Logo"]" alt="Header Logo" />
                                 </a>
 
                                 <div class="header-right">
@@ -111,7 +118,7 @@
                                                class="search-btn bt"
                                                data-bs-toggle="modal"
                                                data-bs-target="#exampleModal">
-                                                <i class="pe-7s-search"></i>
+                                                @Html.Raw(@settings["SearchIcon"])
                                             </a>
                                         </li>
                                         <li class="dropdown d-none d-lg-block">
@@ -305,7 +312,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-3 col-6">
                                 <a href="index.html" class="header-logo">
-                                    <img src="~/assets/images/logo/dark.png" alt="Header Logo" />
+                                    <img src="~/assets/images/logo/@settings["Logo"]" alt="Header Logo" />
                                 </a>
                             </div>
                             <div class="col-lg-6 d-none d-lg-block">
@@ -437,7 +444,7 @@
                                                class="search-btn bt"
                                                data-bs-toggle="modal"
                                                data-bs-target="#exampleModal">
-                                                <i class="pe-7s-search"></i>
+                                                @Html.Raw(@settings["SearchIcon"])
                                             </a>
                                         </li>
                                         <li class="dropdown d-none d-lg-block">
@@ -491,7 +498,7 @@
                         </div>
                         <div class="header-contact offcanvas-contact">
                             <i class="pe-7s-call"></i>
-                            <a href="tel://+00-123-456-789">+00 123 456 789</a>
+                            <a href="tel:@settings["PhoneNumber"]">@settings["PhoneNumber"]</a>
                         </div>
                         <div class="offcanvas-user-info">
                             <ul class="dropdown-wrap">
@@ -804,7 +811,7 @@
                                     <button class="search-btn"
                                             type="submit"
                                             aria-label="searchbtn">
-                                        <i class="pe-7s-search"></i>
+                                        @Html.Raw(@settings["SearchIcon"])
                                     </button>
                                 </form>
                             </div>
@@ -920,7 +927,7 @@
                             <div class="footer-widget-item">
                                 <div class="footer-widget-logo">
                                     <a href="index.html">
-                                        <img src="~/assets/images/logo/dark.png" alt="Logo" />
+                                        <img src="~/assets/images/logo/@settings["Logo"]" alt="Logo" />
                                     </a>
                                 </div>
                                 <p class="footer-widget-desc">
@@ -932,7 +939,7 @@
                                 <div class="social-link with-border">
                                     <ul>
                                         <li>
-                                            <a href="#"
+                                            <a href="@settings["FBLink"]"
                                                data-tippy="Facebook"
                                                data-tippy-inertia="true"
                                                data-tippy-animation="shift-away"
@@ -943,7 +950,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#"
+                                            <a href="@settings["XLink"]"
                                                data-tippy="Twitter"
                                                data-tippy-inertia="true"
                                                data-tippy-animation="shift-away"
@@ -954,7 +961,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#"
+                                            <a href="@settings["PLink"]"
                                                data-tippy="Pinterest"
                                                data-tippy-inertia="true"
                                                data-tippy-animation="shift-away"
@@ -962,17 +969,6 @@
                                                data-tippy-arrow="true"
                                                data-tippy-theme="sharpborder">
                                                 <i class="fa fa-pinterest"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"
-                                               data-tippy="Dribbble"
-                                               data-tippy-inertia="true"
-                                               data-tippy-animation="shift-away"
-                                               data-tippy-delay="50"
-                                               data-tippy-arrow="true"
-                                               data-tippy-theme="sharpborder">
-                                                <i class="fa fa-dribbble"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -1051,7 +1047,7 @@
                                 <a class="number" href="tel://123-456-789">123 456 789</a>
                                 <div class="address">
                                     <ul>
-                                        <li>Your Address Goes Here</li>
+                                        <li>@settings["Address "]</li>
                                     </ul>
                                 </div>
                             </div>
