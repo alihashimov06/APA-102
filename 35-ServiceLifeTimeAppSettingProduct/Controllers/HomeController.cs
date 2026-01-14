@@ -28,6 +28,7 @@ namespace _34_Front_To_BackSqlConnection.Controllers
             List<Presentation> presentations = await _context.Presentations.ToListAsync();
             List<Group> groups = await _context.Groups.ToListAsync();
             List<Product> products = await _context.Products.Include(p => p.ProductImages.Where(pi => pi.IsMain != null)).ToListAsync();
+            List<Product> newProducts = await _context.Products.OrderByDescending(p=>p.CreatedAt).Take(6).Include(p => p.ProductImages.Where(pi => pi.IsMain != null)).ToListAsync();
 
 
             HomeVM homeVM = new HomeVM
@@ -36,11 +37,12 @@ namespace _34_Front_To_BackSqlConnection.Controllers
                 Shippings = shippings,
                 Presentations = presentations,
                 Groups = groups,
-                Products = products
-             
+                Products = products,
+                NewProducts = newProducts
+
             };
 
-            return View(homeVM);
+            return View(homeVM); 
         }
 
     }

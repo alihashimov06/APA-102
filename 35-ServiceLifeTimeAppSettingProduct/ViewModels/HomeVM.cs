@@ -11,5 +11,6 @@ namespace _34_Front_To_BackSqlConnection.ViewModels
         public List<Product> Products { get; set; }
         public List<ProductImage> ProductImages { get; set; }
         public List<Category> Categories { get; set; }
+        public List<Product> NewProducts { get; set; } 
     }
 }
