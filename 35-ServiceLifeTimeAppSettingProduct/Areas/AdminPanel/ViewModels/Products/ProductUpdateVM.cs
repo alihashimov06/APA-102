@@ -15,8 +15,9 @@ namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.ViewModels
         public string SKU { get; set; }
         [Required]
         public int? CategoryId { get; set; }
-        public List<int>? TagIds { get; set; }
         public List<Category>? Categories { get; set; }
+        [Required]
+        public List<int>? TagIds { get; set; }
         public List<Tag>? Tags { get; set; }
         public List<ProductImage>? ProductImages { get; set; }
         public List<int>? ImageIds { get; set; }

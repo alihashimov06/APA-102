@@ -22,7 +22,7 @@ namespace _34_Front_To_BackSqlConnection.Areas.AdminPanel.Controllers
             _context = context;
             _env     = env;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index()        
         {
             var products = await _context.Products
                 .Include(p => p.Category)

@@ -14,7 +14,7 @@
                     <div class="form-group">
                         <label for="MainPhoto">Main Image</label>
                         <input asp-for="MainPhoto" class="form-control" accept="image/*">
-                        <span asp-validation-for="Name" class="text-danger"></span>
+                        <span asp-validation-for="MainPhoto" class="text-danger"></span>
                     </div>
                     <div class="form-group">
                         <label for="HoverPhoto">Secondary Image</label>
@@ -47,7 +47,7 @@
                     <div class="form-group">
                         <label for="TagIds">Tag</label>
                         <select asp-for="TagIds" class="form-control" asp-items="new SelectList(Model.Tags, nameof(Tag.Id), nameof(Tag.Name))" multiple="multiple">
-                            @* <option selected disabled>Choose Category</option> *@
+                          
                         </select>
                         <span asp-validation-for="TagIds" class="text-danger"></span>
                     </div>
